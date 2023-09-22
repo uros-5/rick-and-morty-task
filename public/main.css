@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'IS-Regular';
+  src: url('/fonts/Inclusive_Sans/InclusiveSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'IS-Italic';
+  src: url('/fonts/Inclusive_Sans/InclusiveSans-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Ys';
+  src: url('/fonts/Ysabeau_Infant/YsabeauInfant-VariableFont_wght.ttf')
+}
+
+.font-1 {
+  font-family: 'Ys';
+}
+
+.font-2 {
+  font-family: 'IS-Regular';
+}
+
+.font-3 {
+  font-family: 'IS-Regular';
+}
+
+.font-4 {
+  font-family: 'InclusiveSans-Italic';
+}
