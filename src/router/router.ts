@@ -12,12 +12,7 @@ const router = createRouter({
       path: '/gallery',
       name: 'gallery',
       component: () => import("@/views/Gallery.vue")
-    },
-    {
-      path: '/profile/:id',
-      name: 'profile',
-      component: () => import("@/views/Profile.vue")
-    },
+    }
   ]
 })
 
