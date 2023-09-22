@@ -1,4 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { onMounted } from 'vue'
+import quickDom from '@/assets/quickDom'
+
+onMounted(() => {
+  quickDom(false)
+})
+</script>
 
 <template>
   <div class="relative flex justify-center sm:col-span-2 sm-col-span-2 mt-14">
@@ -12,7 +19,7 @@
       <button
         @click="navigate"
         role="link"
-        class="absolute m-auto left-0 right-0 top-0 bg-green-400 bg-opacity-8 p-5 font-2 text-xl sm:text-2xl rounded-md shadow-md shadow-green-500 text-green-900 font-medium hover:bg-green-500 hover:text-green-100 md:text-3xl lg:text-4xl lg:tracking-wide"
+        class="absolute m-auto left-0 right-0 top-0 bg-green-400 bg-opacity-8 p-5 font-2 text-xl sm:text-2xl rounded-md shadow-md shadow-green-500 text-green-900 font-medium hover:bg-green-500 hover:text-green-100 md:text-3xl lg:text-4xl lg:tracking-wide font-5"
       >
         Explore
       </button>

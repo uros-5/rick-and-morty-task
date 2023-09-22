@@ -10,7 +10,12 @@
 
 @font-face {
   font-family: 'Ys';
-  src: url('/fonts/Ysabeau_Infant/YsabeauInfant-VariableFont_wght.ttf')
+  src: url('/fonts/Ysabeau_Infant/YsabeauInfant-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
 }
 
 .font-1 {
@@ -27,4 +32,8 @@
 
 .font-4 {
   font-family: 'InclusiveSans-Italic';
+}
+
+.font-5 {
+  font-family: 'RobotoSlab'
 }
